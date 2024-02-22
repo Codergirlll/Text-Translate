@@ -104,22 +104,3 @@ app.post("/text/translation", (req, res) => {
 app.listen(port, () => {
     console.log(`server is running at port no. ${port}`);
 })
-
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/Codergirlll/Text-Translate.git
-// git push -u origin main
-
-// echo "# Text-Translate" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/Codergirlll/Text-Translate.git
-// git push -u origin main
-
-// git remote add origin https://github.com/Codergirlll/Text-Translate.git
-// git branch -M main
-// git push -u origin main
