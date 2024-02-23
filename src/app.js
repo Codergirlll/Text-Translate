@@ -36,11 +36,11 @@ app.post("/text/translation", (req, res) => {
 
         console.log("IsValid: ", IsValid)
 
-        // // 1. for French
-        // let translateIn = 'fr'
+        // 1. for French
+        let translateIn = 'fr'
 
-        // 2. for Hindi
-        let translateIn = 'hi'
+        // // 2. for Hindi
+        // let translateIn = 'hi'
 
         if (IsValid) {
 
@@ -69,7 +69,6 @@ app.post("/text/translation", (req, res) => {
                             type: err.name,
                             description: err.message
                         }
-
                     })
                 });
         }
